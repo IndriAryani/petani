@@ -1,0 +1,491 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Petani Kode
+  </title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #0d1b2a;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: #1b263b;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+        .btn-primary, .btn-outline-light {
+            border-radius: 20px;
+        }
+        .btn-primary {
+            background-color: #00b4d8;
+            border: none;
+        }
+        .btn-outline-light {
+            border-color: #ffffff;
+            color: #ffffff;
+        }
+        .hero {
+            background-color: #1b263b;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: white;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: #1b263b;
+            border: none;
+            border-radius: 10px;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            color: white;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: white;
+        }
+        .card-footer {
+            background-color: #1b263b;
+            border-top: none;
+        }
+        .pagination {
+            justify-content: center;
+        }
+        .newsletter {
+            background-color: #1b263b;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .newsletter h2 {
+            font-size: 1.5rem;
+        }
+        .newsletter p {
+            font-size: 1rem;
+        }
+        .review-title {
+            color: #58a6ff;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .review-subtitle {
+            color: #8b949e;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .review-card {
+            background-color: #161b22;
+            border: none;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .review-author {
+            color: #39d353;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        .footer {
+            padding: 40px 0;
+        }
+        .footer h5 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        .footer .social-icons a:hover {
+            color: #ff0000;
+        }
+        .footer .contact a {
+            color: #007bff;
+        }
+        .footer .contact a:hover {
+            color: #0056b3;
+        }
+        .footer .copyright {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg">
+   <div class="container">
+    <a class="navbar-brand" href="#">
+     Petani Kode
+    </a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Home
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Ebook
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Tutorial
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Blog
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">
+        Discord
+       </a>
+      </li>
+     </ul>
+     <form class="d-flex">
+      <button class="btn btn-outline-light me-2" type="button">
+       Join Newsletter
+      </button>
+     </form>
+    </div>
+   </div>
+  </nav>
+  <div class="hero">
+   <div class="container">
+    <h1>
+     Petani Kode
+    </h1>
+    <p>
+     Belajar budidaya kode (coding) dengan tutorial yang mudah dipahami. Mostly tentang Linux.
+    </p>
+    <button class="btn btn-primary me-2">
+     Mulai Belajar
+    </button>
+    <button class="btn btn-outline-light">
+     Join Newsletter
+    </button>
+    <img alt="Illustration of a person with coding symbols" height="400" src="https://www.petanikode.com/img/petanikode-hero.svg" width="600"/>
+   </div>
+  </div>
+  <div class="container my-5">
+   <h2 class="section-title">
+    Mau belajar apa hari ini?
+   </h2>
+   <div class="row">
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <div class="card-body">
+       <h5 class="card-title">
+        Basic Programming
+       </h5>
+       <p class="card-text">
+        Belajar dasar-dasar pemrograman seperti C, C++, Java, Python, dan lainnya.
+       </p>
+      </div>
+      <div class="card-footer">
+       <a class="btn btn-primary" href="#">
+        Lihat Tutorial
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <div class="card-body">
+       <h5 class="card-title">
+        Web Programming
+       </h5>
+       <p class="card-text">
+        Belajar membuat website dari nol. Mulai dari HTML, CSS, JavaScript, hingga framework.
+       </p>
+      </div>
+      <div class="card-footer">
+       <a class="btn btn-primary" href="#">
+        Lihat Tutorial
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <div class="card-body">
+       <h5 class="card-title">
+        Tutorial lainnya
+       </h5>
+       <p class="card-text">
+        Belajar tentang berbagai teknologi lainnya seperti Git, Docker, dan masih banyak lagi.
+       </p>
+      </div>
+      <div class="card-footer">
+       <a class="btn btn-primary" href="#">
+        Lihat Tutorial
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <h2 class="section-title">
+    Apa yang baru di Petani Kode?
+    <i class="fas fa-fire">
+    </i>
+   </h2>
+   <div class="row">
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Tutorial Laravel untuk Pemula" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/laravel-11.png" width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">Tutorial Laravel 11 untuk Pemula: Langsung Bisa bikin CRUD!</h5>
+       <p class="card-text">
+        Belajar membuat aplikasi CRUD dengan Laravel untuk pemula.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Tutorial Membuat Sistem Notifikasi dengan Node.js" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/go-redis-pub-sub.png" width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">
+        Tutorial Membuat Sistem Notifikasi dengan Node.js dan Pusher di Golang
+       </h5>
+       <p class="card-text">
+        Belajar membuat sistem notifikasi real-time dengan Node.js dan Pusher di Golang.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Belajar C++ #13: Mengenal Tipe Data Union di C++" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/cpp-union.png" width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">
+        Belajar C++ #13: Mengenal Tipe Data Union di C++
+       </h5>
+       <p class="card-text">
+        Belajar tentang tipe data Union di C++ dan bagaimana cara menggunakannya.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Nomor Satu! Emang Penting?" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/cpp-struct.png" width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">
+        Nomor Satu! Emang Penting?
+       </h5>
+       <p class="card-text">
+        Apakah menjadi nomor satu itu penting? Simak pembahasannya di sini.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Belajar C++ #12: Mengenal Tipe Data Enum di C++" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/cpp-enum.png "width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">
+        Belajar C++ #12: Mengenal Tipe Data Enum di C++
+       </h5>
+       <p class="card-text">
+        Belajar tentang tipe data Enum di C++ dan bagaimana cara menggunakannya.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="card mb-4">
+      <img alt="Belajar C++ #11: Mengenal Pointer dan Referensi di C++" class="card-img-top" height="200" src="https://www.petanikode.com/img/cover/cpp-pointer.png" width="300"/>
+      <div class="card-body">
+       <h5 class="card-title">
+        Belajar C++ #11: Mengenal Pointer dan Referensi di C++
+       </h5>
+       <p class="card-text">
+        Belajar tentang pointer dan referensi di C++ dan bagaimana cara menggunakannya.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <nav aria-label="Page navigation example">
+    <ul class="pagination">
+     <li class="page-item">
+      <a class="page-link" href="#">
+       1
+      </a>
+     </li>
+     <li class="page-item">
+      <a class="page-link" href="#">
+       2
+      </a>
+     </li>
+     <li class="page-item">
+      <a class="page-link" href="#">
+       3
+      </a>
+     </li>
+     <li class="page-item">
+      <a class="page-link" href="#">
+       4
+      </a>
+     </li>
+     <li class="page-item">
+      <a class="page-link" href="#">
+       5
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </div>
+  <div class="newsletter">
+   <div class="container">
+    <h2>
+     Biar gak ketinggalan update..
+    </h2>
+    <p>
+     Subscribe Newsletter Petani Kode agar kamu bisa dapat info dan tips belajar coding langsung di inbox emailmu!
+    </p>
+    <button class="btn btn-primary">
+     Subscribe
+    </button>
+   </div>
+  </div>
+  <div class="review-title">REVIEW</div>
+  <h1 class="text-white">Apa kata mereka? <span role="img" aria-label="smiling face with heart eyes">😍</span></h1>
+  <p class="review-subtitle">Kata mereka yang belajar di Petani Kode</p>
+  <div class="row">
+      <div class="col-md-6">
+          <div class="review-card">
+              <p>Materi yang diberikan mudah dipahami, terimakasih</p>
+              <p class="review-author">~ Zulfikar Zahir Hamdani</p>
+          </div>
+          <div class="review-card">
+              <p>Terimakasih banyak sdah membuatkan tutorial sejelas ini,sangat bermanfa'at bagi saya yg masih pemula</p>
+              <p class="review-author">~ Ghozan Azhar Fauzie</p>
+          </div>
+          <div class="review-card">
+              <p>Saya ucapkan terima kasih kepada admin petani k ode atas ilmu yang diberikan. akhirnya saya bisa membuat website saya sendiri. semoga petani kode makin maju dan selalu diberikan kemudahan dalam segala urusannya.Aamiin</p>
+              <p class="review-author">~ Abdul Wahid</p>
+          </div>
+          <div class="review-card">
+              <p>Terima kasih banyak tutorialnya. Step by step dan rinci. Mudah untuk dipahami. Semangat terus tim Petani Kode</p>
+              <p class="review-author">~ fbhikmawan</p>
+          </div>
+          <div class="review-card">
+              <p>Akhirnya ketemu juga website belajar coding yang oke <span role="img" aria-label="smiling face with smiling eyes">😊</span> <span role="img" aria-label="smiling face with smiling eyes">😊</span> <span role="img" aria-label="smiling face with smiling eyes">😊</span> <span role="img" aria-label="thumbs up">👍</span> <span role="img" aria-label="thumbs up">👍</span></p>
+              <p class="review-author">~ Riski</p>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="review-card">
+              <p>Terimakasih author, yang telah membuat tutorial html,css, dan kawan kawannya. Saya sangat terbantu dengan ini. Sekali lagi saya ucapkan terimakasih sedalam dalamnya.</p>
+              <p class="review-author">~ BIBN</p>
+          </div>
+          <div class="review-card">
+              <p>Terimakasih banyak bang ilmunya, untuk aku pemula yang belom kenal sama sekali sangat bermanfaat. Jadi semangat untuk lanjut kehalaman berikutnya, ijin save ya bang</p>
+              <p class="review-author">~ Ade</p>
+          </div>
+          <div class="review-card">
+              <p>Wah terima kasih petani kode, saya mengikuti tutorial java di sini mulai nol hingga materi ini. kesimpulannya: saya sangat suka dan mudah memahami. apalagi penjelasan penulis dengan gaya yang bercerita seakan akan hadir di samping saya. setiap materi selalu berasa ingin lebih. padahal saya dulu sudah pernah dapat materi java dari dosen cuma lompat lompat dan asal selesai. kewajiban menyelesaikan skripsi membuat saya harus belajar lagi dari nol. saya harap setelah oop, materinya terus dikembangkan sampek bisa tes mandiri. terima kasih petani kode, amal jariyah untuk anda.</p>
+              <p class="review-author">~ Arya Putra</p>
+          </div>
+      </div>
+  </div>
+  <footer class="footer text-center text-md-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h5>Petani Kode</h5>
+                <p>Tempat belajar budidaya kode (coding) dengan tutorial yang gampang dipahami.</p>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h5>Belajar</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Artikel</a></li>
+                    <li><a href="#">Tutorial</a></li>
+                    <li><a href="#">Buku</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h5>Popular Tutorial</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Tutorial Bahasa C</a></li>
+                    <li><a href="#">Tutorial Javascript</a></li>
+                    <li><a href="#">Tutorial Java</a></li>
+                    <li><a href="#">Tutorial PHP</a></li>
+                    <li><a href="#">Tutorial Python</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h5>Social Media</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Facebook Page</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube Channel</a></li>
+                    <li><a href="#">Telegram Channel</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-4 mb-md-0">
+                <h5>Petani Kode</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="copyright">
+                    © 2024 Petani Kode · Made with <i class="fas fa-heart"></i> using Hugo 0.134.0
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+ </body>
+</html>
